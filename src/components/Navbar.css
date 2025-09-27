@@ -1,0 +1,46 @@
+.navbar {
+ 
+  width: 100%;
+  background-color: #257e9c;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;        /* تخلي العناصر جنب بعض */
+  gap: 20px;            /* مسافة بين العناصر */
+  margin: 5px;            /* نشيل أي هوامش افتراضية */
+  padding: 0;           /* نشيل أي padding افتراضي */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffdd57;
+}
+@media(max-width:768px){
+  .nav-links{
+    display: none;
+  }
+}

@@ -1,0 +1,48 @@
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  
+  display: flex;
+  justify-content: center; /* يوّسط الكروت أفقياً */
+  flex-wrap: wrap;        /* لو في أكثر من 4 كروت، تروح للسطر الجديد */
+  gap: 20px;              /* المسافة بين الكروت */
+  margin-top: 30px;
+  
+}
+
+
+.main-content h1 {
+  color: #2186b1;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.search-input {
+  text-align: left;
+  width: 300px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 5px rgba(0, 119, 255, 0.5);
+}
+@media(max-width:768px){
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+}

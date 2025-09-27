@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  
+margin-top: 250px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #14357b; /* اللون الافتراضي للأيقونات */
+  transition: transform 0.2s, color 0.2s; /* لتأثير سلس */
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* تكبير الأيقونة عند المرور */
+  color: #0077ff;       /* تغيير اللون عند المرور */
+}
+h1{
+  color: aliceblue;
+}
+@media(max-width:480px){
+  .social-icons{
+    
+    gap: 10px;
+  }
+}

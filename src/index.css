@@ -1,0 +1,24 @@
+/* نشيل أي margin و padding افتراضي للصفحة */
+html, body {
+  scroll-behavior: smooth;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea; /* حسب اختيارك */
+  direction: rtl; /* أو rtl لو عربي */
+}
+
+/* Wrapper للمحتوى المتوسط */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;   /* يوّسط المحتوى */
+  padding: 0 20px;
+}
+
+/* Navbar و Footer ياخدوا العرض كله */
+.navbar, .footer {
+  text-align: right;
+  width: 100%;
+  box-sizing: border-box;
+}
